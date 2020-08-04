@@ -1,0 +1,32 @@
+.button {
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+}
+
+.up-button,
+.down-button,
+.change-button {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #b38426;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  font-size: 20px;
+}
+
+.up-button,
+.change-button {
+  margin-bottom: 20px;
+}
+
+.change-button {
+  outline: none;
+  border: 1px solid white;
+  font-weight: 700;
+}

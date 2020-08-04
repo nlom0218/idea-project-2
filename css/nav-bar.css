@@ -1,0 +1,56 @@
+.nav-bar .list,
+.nav-bar1 .list,
+.nav-bar2 .list,
+.nav-bar3 .list {
+  font-size: 25px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-bar,
+.nav-bar1,
+.nav-bar2,
+.nav-bar3 {
+  margin-top: 40px;
+  width: 600px;
+}
+
+.nav-bar1 a:nth-child(1),
+.nav-bar2 a:nth-child(2),
+.nav-bar3 a:nth-child(3) {
+  color: #b38426;
+}
+
+.list .item:hover {
+  text-decoration: underline;
+}
+
+.nav-bar .list a,
+.nav-bar1 .list a,
+.nav-bar2 .list a,
+.nav-bar3 .list a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*.list .item {
+  margin-right: 10px;
+}
+
+.list i {
+  font-size: 20px;
+  animation: 1s rotatesSquare infinite ease-in-out;
+}*/
+
+/*@keyframes rotatesSquare {
+  0% {
+    transform: translateX(-2px);
+  }
+  50% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(-2px);
+  }
+}*/
